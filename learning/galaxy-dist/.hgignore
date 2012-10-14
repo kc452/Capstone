@@ -1,0 +1,80 @@
+syntax: regexp
+
+\.svn$
+
+syntax: glob
+
+.hg*
+# Downloaded and locally built eggs
+eggs
+scripts/scramble/build
+scripts/scramble/lib
+scripts/scramble/archives
+
+# Database stuff
+database/beaker_sessions
+database/community_files
+database/compiled_templates
+database/files
+database/pbs
+database/tmp
+database/*.sqlite
+
+# Python bytecode
+*.pyc
+
+# Config files
+universe_wsgi.ini
+reports_wsgi.ini
+community_wsgi.ini
+
+datatypes_conf.xml
+tool_conf.xml
+external_service_types_conf.xml
+migrated_tools_conf.xml
+shed_tool_conf.xml
+tool_data_table_conf.xml
+tool_sheds_conf.xml
+integrated_tool_panel.xml
+openid_conf.xml
+
+static/welcome.html.*
+static/welcome.html
+
+# Tool data.
+tool-data/annotation_profiler_options.xml
+tool-data/annotation_profiler_valid_builds.txt
+tool-data/gatk_annotations.txt
+tool-data/gd.restriction_enzymes.txt
+tool-data/gd.species.txt
+tool-data/shared/igv/igv_build_sites.txt
+tool-data/shared/rviewer/rviewer_build_sites.txt
+tool-data/shared/ncbi/builds.txt
+tool-data/shared/ucsc/builds.txt
+tool-data/shared/ensembl/builds.txt
+tool-data/shared/ucsc/publicbuilds.txt
+tool-data/*.loc
+tool-data/genome/*
+
+# Test output
+run_functional_tests.html
+
+# Project files
+*.kpf
+
+# Chrom len files
+*.len
+
+# Jars
+tool-data/shared/jars/
+
+# CSS build artifacts.
+*/variables.less
+static/june_2007_style/blue/base_sprites.less
+
+# Misc
+*.orig
+.DS_Store
+*.rej
+*~
+
