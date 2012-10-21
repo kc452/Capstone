@@ -1,0 +1,10 @@
+<tool id="removeSpace1" name="Remove First Space">
+  <description>Remove the first space.</description>
+  <command interpreter="python">removeFirstSpace.py $input $output_filename</command>
+  <inputs>
+    <param format="txt" name="input" type="data"/>
+  </inputs>
+  <outputs>
+    <data name="output_filename" format="txt"/>
+  </outputs>
+</tool>
