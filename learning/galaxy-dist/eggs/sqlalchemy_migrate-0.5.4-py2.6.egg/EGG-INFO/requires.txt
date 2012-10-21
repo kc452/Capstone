@@ -1,5 +1,0 @@
-sqlalchemy >= 0.5
-decorator
-
-[docs]
-sphinx >= 0.5

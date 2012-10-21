@@ -1,1 +1,0 @@
-define(["libs/backbone/backbone-relational"],function(){var a=Backbone.RelationalModel.extend({defaults:{id:"",type:"",name:"",hda_ldda:"hda"},urlRoot:galaxy_paths.get("datasets_url")});var b=Backbone.Collection.extend({model:a});return{Dataset:a,DatasetCollection:b}});
