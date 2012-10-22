@@ -1,0 +1,19 @@
+<tool id="ctxevenodd" name="ctxevenodd">
+  	<description>
+		Remove even/odd detector striping from MRO ctx images
+ 	</description>
+
+  	<command>ctxevenodd from=$from to=$to</command>
+
+  	<inputs>
+    		<param name="from" format="cub" type="data" label="from="/>
+  	</inputs>
+
+	<outputs>
+		<data name="to" format="cub" label="to="/>
+	</outputs>
+
+	<help>
+		Takes and outputs cub files
+	</help>
+</tool>

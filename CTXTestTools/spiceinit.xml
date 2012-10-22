@@ -1,0 +1,17 @@
+<tool id="spiceinit" name="spiceinit">
+  	<description>
+		Determine SPICE kernels for a camera cube
+ 	</description>
+
+  	<command>
+    		spiceinit from=$from
+	</command>
+
+  	<inputs>
+    		<param name="from" format="cub" type="data" label="from"/>
+  	</inputs>
+
+	<help>
+		Remember to specify where you get your update kernels (web or local)
+	</help>
+</tool>

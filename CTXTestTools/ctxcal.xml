@@ -1,0 +1,19 @@
+<tool id="ctxcal" name="ctxcal">
+  	<description>
+		Radiometrically calibrates a CTX image
+ 	</description>
+
+  	<command>ctxcal from=$from to=$to</command>
+
+  	<inputs>
+    		<param name="from" format="cub" type="data" label="from="/>
+  	</inputs>
+
+	<outputs>
+		<data name="to" format="cub" label="to"/>
+	</outputs>
+
+	<help>
+		Takes and outputs cub file
+	</help>
+</tool>

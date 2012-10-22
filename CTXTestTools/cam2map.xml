@@ -1,0 +1,20 @@
+<tool id="cam2map" name="cam2map">
+  	<description>
+		Convert camera image to a map projection
+ 	</description>
+
+  	<command>cam2map from=$from map=$map to=$to</command>
+
+  	<inputs>
+    		<param name="from" format="img" type="data" label="from="/>
+		<param name="map" format="map,cub" type="data" label="map="/>
+  	</inputs>
+
+	<outputs>
+		<data name="to" format="cub" label="to="/>
+	</outputs>
+
+	<help>
+		Remember to specify a .map file
+	</help>
+</tool>
