@@ -3,7 +3,7 @@
   	<command>mroctx2isis from=$input to=$output</command>
 
   	<inputs>
-    		<param format="txt" name="input" type="data" label="from="/>
+    		<param format="IMG" name="input" type="data" label="from="/>
   	</inputs>
 
   	<outputs>
