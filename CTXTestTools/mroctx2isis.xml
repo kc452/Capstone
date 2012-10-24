@@ -2,9 +2,15 @@
 	<description>Convert mro ctx to isis cube</description>
   	<command>mroctx2isis from=$input to=$output</command>
 
+<<<<<<< HEAD
   	<inputs>
     		<param format="txt" name="input" type="data" label="from="/>
   	</inputs>
+=======
+  	<inputs>
+    		<param format="IMG" name="input" type="data" label="from="/>
+  	</inputs>
+>>>>>>> 8e32b4d0a71651bcd79073b03d0ed944030fcd6b
 
   	<outputs>
     		<data format="cub" name="output" label="to="/>
