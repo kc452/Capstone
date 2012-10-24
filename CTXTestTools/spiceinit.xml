@@ -11,6 +11,10 @@
     		<param name="from" format="cub" type="data" label="from"/>
   	</inputs>
 
+	<outputs>
+    		<data format="cub" name="from" label="to="/>
+	</outpus>
+
 	<help>
 		Remember to specify where you get your update kernels (web or local)
 	</help>
